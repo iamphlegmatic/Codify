@@ -86,7 +86,6 @@ body{
 }
 .course{
     width: 30%;
-    
     margin: 10px;
     height: 50vh;
 }
@@ -122,6 +121,15 @@ p{
    }
    .course{
        width: 60%;
+       height: 80vh;
+    }
+   img{
+       height: 400px;
    }
-   
+   .course-description{
+       font-size: 4vw;
+   }
+   .course-heading{
+       font-size: 6vw;
+   }
   }
