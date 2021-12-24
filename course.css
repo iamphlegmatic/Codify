@@ -81,7 +81,7 @@ body{
 .course-content{
     width: 80%;
     display: flex;
-    flex-wrap: wrap;
+   
     height: 100vh;
 }
 .course{
@@ -110,5 +110,13 @@ p{
     font-size: 1vw;
     color: #36454F;
     font-family: 'Roboto', sans-serif;
-    
 }
+
+@media (max-width: 800px) {
+    .course-content {
+      flex-direction: column;
+    }
+   .options-list{
+       visibility: hidden;
+   }
+  }
