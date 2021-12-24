@@ -117,6 +117,6 @@ p{
       flex-direction: column;
     }
    .options-list{
-       visibility: hidden;
+      display: none;
    }
   }
