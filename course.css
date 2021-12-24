@@ -115,6 +115,7 @@ p{
 @media (max-width: 800px) {
     .course-content {
       flex-direction: column;
+      width: 100%;
     }
    .options-list{
       display: none;
