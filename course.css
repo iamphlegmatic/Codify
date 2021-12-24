@@ -112,12 +112,16 @@ p{
     font-family: 'Roboto', sans-serif;
 }
 
-@media (max-width: 800px) {
+@media screen and (max-width: 600px) {
     .course-content {
       flex-direction: column;
-      width: 100%;
+      align-items: center;
     }
    .options-list{
       display: none;
    }
+   .course{
+       width: 60%;
+   }
+   
   }
